@@ -25,7 +25,7 @@ pd.read_csv("ecoli.data").head() # abro el archivo
 
 ecoli = pd.read_csv("ecoli.data") # lo guardo en un objeto (asignación)
 
-type(ecoli) # me va a decir que es un dataframe
+type(ecoli) # me va a decir que es un dataframe.
  
 ecoli.dtypes # para ver que tipo de cosas contiene mi dataframe uso la función dtypes
 
