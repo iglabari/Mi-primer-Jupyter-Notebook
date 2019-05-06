@@ -98,7 +98,7 @@ data_agrupada.site.count()['cp']
 site_protein = ecoli.groupby(['site','protein'])                    #AGRUPO 2 COLUMNAS
 site_protein.count().head()
 
-# de esta manera puedo ver las proteínas que se encuentran en cada sitio
+# de esta manera puedo ver las proteínas que se encuentran en cada sitio.
 
 site_protein.describe().head()
 
