@@ -21,7 +21,7 @@ pd.read_csv("ecoli.data").head() # abro el archivo
 # regular: %s/ \+/,/g    significados:  %(en toda la línea) s(sustituí) /un espacio\
 # (donde haya un espacio) +/ (o más de uno) /,/ (reemplazalo por solamente una coma)
 # /g (g de global, es decir no solo a la primer línea, sino globalmente a todo el documento)
-# y finalmente los títulos de las columnas fueron agragadas a mano.
+# y finalmente los títulos de las columnas fueron agregadas a mano.
 
 ecoli = pd.read_csv("ecoli.data") # lo guardo en un objeto (asignación)
 
